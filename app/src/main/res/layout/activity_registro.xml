@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/Nombre" />
 
     <EditText
-        android:id="@+id/Edad"
+        android:id="@+id/Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -56,8 +56,8 @@
         android:layout_marginEnd="32dp"
         android:ems="10"
         android:fontFamily="monospace"
-        android:hint="Edad"
-        android:inputType="text"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Apellido" />
@@ -75,7 +75,7 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Edad"/>
+        app:layout_constraintTop_toBottomOf="@+id/Password"/>
 
     <EditText
         android:id="@+id/Rut"
@@ -93,14 +93,14 @@
         app:layout_constraintTop_toBottomOf="@+id/Correo"/>
 
     <Button
-        android:id="@+id/btnSeleccionar"
+        android:id="@+id/btnReguistrarse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:onClick="btnChek"
-        android:text="Presioname"
+        android:text="Reguistrarse"
         android:textSize="30dp"
         android:fontFamily="monospace"
         android:textColor="@color/black"
