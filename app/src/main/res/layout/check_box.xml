@@ -30,6 +30,5 @@
         android:fontFamily="monospace"
         android:textColor="@color/black"
         android:background="@drawable/background_grounded"
-
         />
 </RelativeLayout>
